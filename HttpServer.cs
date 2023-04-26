@@ -10,3 +10,22 @@ using System.IO;
 using System.Text;
 using System.Net;
 using System.Threading.Tasks;
+
+// namespace defenition 
+namespace HttpCLientExample
+{
+    // class defenition 
+    class HttpServer
+    {
+        /*
+        * data type
+        */
+
+        public static HttpListing listener; 
+        public static string url = "http://localhost:8000/";
+        public static int pageViews = 0;
+        public static int requestCount = 0;
+
+    } // end HttpServer
+
+} // end namespace
